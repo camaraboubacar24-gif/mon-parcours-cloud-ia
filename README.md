@@ -1,6 +1,6 @@
 # Mon parcours cloud, réseau et IA
 
-Salut, moi c'est Thierno 👋
+Salut, moi c'est Thierno
 
 Je suis technicien informatique à Montréal. Au quotidien, je fais du support N1 : je dépanne des utilisateurs, je prépare des PC pour les nouveaux employés, je touche à Intune, à Entra ID et à Active Directory. J'aime ça, mais je veux aller plus loin : devenir administrateur système, puis un jour architecte cloud et IA.
 
