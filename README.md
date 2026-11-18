@@ -41,4 +41,4 @@ Tous les exemples sont fictifs (thierno-lab.local, utilisateur-test). Aucune don
 
 ## Contact
 
-LinkedIn : *(ajoute ton lien ici)*
+LinkedIn : www.linkedin.com/in/thierno1998
