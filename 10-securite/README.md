@@ -4,7 +4,7 @@ Je m'y intéresse par curiosité. Pour bien protéger un système, je pense qu'i
 
 | Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
-| TryHackMe : parcours débutant | — | ⏳ |
-| OverTheWire : Bandit | — | ⏳ |
+| TryHackMe : parcours « Pre Security » | — | ⏳ Bonus niveau 1 |
+| OverTheWire : Bandit | — | ⏳ Bonus niveau 1 |
 | PortSwigger Web Security Academy | — | ⏳ |
 | Hack The Box | — | ⏳ Plus tard |
