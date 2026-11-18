@@ -20,6 +20,7 @@ J'ai créé ce dépôt pour une raison simple : j'apprends mieux quand j'écris.
 | Python | Les bases sur Kaggle | ⏳ Bientôt |
 | Labo maison | Proxmox sur un vieux ThinkPad, Active Directory, Veeam | ⏳ Installation en cours |
 | Automatisation | Power Automate | ⏳ Plus tard |
+| Sécurité | Hacking éthique, par curiosité (TryHackMe) | ⏳ Bonus |
 
 Mes badges et certifications sont dans [08-certifications](08-certifications/README.md).
 
@@ -34,6 +35,7 @@ Mes badges et certifications sont dans [08-certifications](08-certifications/REA
 - [07-labo](07-labo) — mon labo à la maison
 - [08-certifications](08-certifications) — badges et certifications
 - [09-automatisation](09-automatisation) — Power Automate
+- [10-securite](10-securite) — sécurité et hacking éthique
 - [_modele](_modele/notes-modele.md) — le modèle que je copie pour mes notes
 
 Petite précision : tout ce qui est ici vient de mon labo ou de mes cours. Les noms de machines et d'utilisateurs sont inventés, et il n'y a aucune donnée de mon travail.
