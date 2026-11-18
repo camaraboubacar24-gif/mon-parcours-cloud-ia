@@ -1,12 +1,10 @@
-# Labo maison
+# Mon labo à la maison
 
-Proxmox sur un Lenovo ThinkPad T470 : Windows Server, Active Directory, sauvegardes Veeam.
+Un vieux Lenovo ThinkPad T470 avec Proxmox dessus. C'est là que je casse des choses sans risque : Windows Server, Active Directory, et bientôt des sauvegardes avec Veeam.
 
-## Notes
-
-| Module | Fichier | Statut |
+| Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
-| Installation de Proxmox | — | 🔄 En cours |
-| Veeam Agent pour Windows : sauvegarde et restauration | — | ⏳ |
-| Veeam University : Veeam Data Platform | — | ⏳ |
-| Veeam Backup & Replication Community Edition (VM Proxmox) | — | ⏳ |
+| Installer Proxmox | — | 🔄 En cours |
+| Sauvegarder et restaurer mon PC avec Veeam Agent | — | ⏳ |
+| Cours Veeam Data Platform | — | ⏳ |
+| Veeam Backup & Replication dans le labo | — | ⏳ |

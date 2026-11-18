@@ -1,9 +1,7 @@
 # PowerShell
 
-Scripts d'administration Windows, testés dans mon labo. Réalisés avec l'aide de l'IA, puis compris, testés et améliorés par moi.
+Mes scripts, testés sur mon PC et dans mon labo. Je les écris souvent avec l'aide de l'IA, mais je ne publie rien que je ne sais pas expliquer.
 
-## Notes
-
-| Module | Fichier | Statut |
+| Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
-| Infos du PC | [Get-InfosPC.ps1](Get-InfosPC.ps1) | ✅ |
+| Afficher les infos d'un PC | [Get-InfosPC.ps1](Get-InfosPC.ps1) | ✅ |

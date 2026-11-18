@@ -1,21 +1,22 @@
-# [Domaine] — [Nom du module]
+# [Sujet] — [Nom du module]
 
-**Date :** AAAA-MM-JJ  ·  **Cours :** [nom du cours + lien]
+**Date :** AAAA-MM-JJ · **Cours :** [nom + lien]
 
-## Ce que j'ai appris
+## En gros, j'ai appris que…
 - 
 - 
+
+## Ce que j'ai fait en pratique
 - 
 
-## Lab réalisé
-- Ce que j'ai fait :
-- Problème rencontré :
-- Solution :
+## Là où j'ai bloqué
+- Le problème :
+- Comment je l'ai réglé :
 
-## Commandes utiles
+## Les commandes que je veux garder
 ```powershell
 
 ```
 
-## Ce que je retiens en une phrase
+## Si je devais l'expliquer à un collègue en une phrase
 

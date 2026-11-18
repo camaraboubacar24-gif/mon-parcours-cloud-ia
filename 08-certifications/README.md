@@ -1,12 +1,14 @@
 # Badges et certifications
 
-## Certifications officielles
+Les badges, ce sont les cours gratuits que j'ai terminés. Les certifications, ce sont les vrais examens. Je les ajoute ici au fur et à mesure.
+
+## Certifications
 
 | Certification | Organisme | Date | Lien |
 | --- | --- | --- | --- |
-| *(à venir : AZ-104)* | Microsoft | | |
+| AZ-104 (en préparation) | Microsoft | | |
 
-## Badges et certificats de cours
+## Badges
 
 | Badge | Organisme | Date | Lien |
 | --- | --- | --- | --- |

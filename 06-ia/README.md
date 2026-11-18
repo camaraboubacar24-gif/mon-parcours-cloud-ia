@@ -1,14 +1,12 @@
-# Intelligence artificielle
+# IA
 
-Cours et expériences avec plusieurs IA : Claude, Microsoft Copilot, ChatGPT, Gemini, Mistral.
+J'utilise l'IA tous les jours, alors je veux vraiment comprendre comment elle marche. Je suis les cours de plusieurs entreprises et je compare les outils entre eux sur les mêmes questions.
 
-## Notes
-
-| Module | Fichier | Statut |
+| Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
 | Claude 101 + AI Fluency | — | 🔄 En cours |
 | Microsoft 365 Copilot Chat | — | ⏳ |
 | OpenAI : AI Foundations | — | ⏳ |
 | Google : IA générative | — | ⏳ |
-| IBM : Fondamentaux de l'IA | — | ⏳ |
+| IBM : fondamentaux de l'IA | — | ⏳ |
 | Elements of AI | — | ⏳ |

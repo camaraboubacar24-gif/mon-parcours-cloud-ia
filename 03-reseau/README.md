@@ -1,12 +1,10 @@
 # Réseau
 
-Cours Cisco Networking Academy, puis CCNA.
+Le réseau, c'est ce qui me manque le plus quand je dépanne. J'ai fini le premier cours Cisco, je continue petit à petit jusqu'au CCNA.
 
-## Notes
-
-| Module | Fichier | Statut |
+| Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
-| Bases des réseaux | — | ✅ Fait |
+| Bases des réseaux | — | ✅ Terminé |
 | Équipements réseau et configuration initiale | — | ⏳ |
-| Adressage réseau et dépannage de base | — | ⏳ |
+| Adressage réseau et dépannage | — | ⏳ |
 | Support et sécurité des réseaux | — | ⏳ |

@@ -1,9 +1,7 @@
 # Python
 
-Bases de Python (Kaggle), puis automatisation et IA.
+Python me fait un peu peur, mais il est partout en IA. Je commence doucement avec Kaggle.
 
-## Notes
-
-| Module | Fichier | Statut |
+| Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
 | Python (Kaggle) | — | ⏳ |
