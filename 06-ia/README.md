@@ -4,7 +4,8 @@ J'utilise l'IA tous les jours, alors je veux vraiment comprendre comment elle ma
 
 | Module | Mes notes | Où j'en suis |
 | --- | --- | --- |
-| Claude 101 + AI Fluency | — | 🔄 En cours |
+| Claude 101 | [claude-101.md](claude-101.md) | ✅ Terminé le 2026-11-19 |
+| AI Fluency | — | 🔄 En cours |
 | Microsoft 365 Copilot Chat | — | ⏳ |
 | OpenAI : AI Foundations | — | ⏳ |
 | Google : IA générative | — | ⏳ |

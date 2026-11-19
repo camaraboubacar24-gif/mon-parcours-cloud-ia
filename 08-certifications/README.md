@@ -13,3 +13,4 @@ Les badges, ce sont les cours gratuits que j'ai terminés. Les certifications, c
 | Badge | Organisme | Date | Lien |
 | --- | --- | --- | --- |
 | Networking Basics | Cisco | | |
+| Claude 101 | Anthropic (Claude Academy) | 2026-11-19 | *(ajoute le lien de ton badge)* |
