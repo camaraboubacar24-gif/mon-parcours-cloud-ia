@@ -21,6 +21,7 @@ J'ai créé ce dépôt pour une raison simple : j'apprends mieux quand j'écris.
 | Labo maison | Proxmox sur un vieux ThinkPad, Active Directory, Veeam | ⏳ Installation en cours |
 | Automatisation | Power Automate | ⏳ Plus tard |
 | Sécurité | Hacking éthique, par curiosité (TryHackMe) | ⏳ Bonus |
+| Odoo (ERP) | Ventes, achats, inventaire, fabrication + une fausse usine de matelas | 🔄 Priorité des prochaines semaines |
 | Mes applications | Construire avec l'IA (Claude Code, API Claude) | ⏳ La fin de semaine |
 
 Mes badges et certifications sont dans [08-certifications](08-certifications/README.md).

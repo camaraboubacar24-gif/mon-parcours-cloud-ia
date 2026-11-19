@@ -6,7 +6,7 @@
 :root{
   --bg:#f5f7fb; --card:#ffffff; --fg:#14182b; --muted:#5b6380; --line:#e2e6f0;
   --c1:#0ea5a4; --c2:#2563eb; --c3:#7c3aed; --c4:#ea580c; --c5:#db2777; --c6:#16a34a;
-  --t1:#e6f7f7; --t2:#e8effd; --t3:#f1ebfe; --t4:#fdefe6; --t5:#fce8f2; --t6:#e7f6ec; --c7:#ca8a04; --t7:#fdf6dd;
+  --t1:#e6f7f7; --t2:#e8effd; --t3:#f1ebfe; --t4:#fdefe6; --t5:#fce8f2; --t6:#e7f6ec; --c7:#ca8a04; --t7:#fdf6dd; --c8:#e11d48; --t8:#fde8ec;
   --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
@@ -57,7 +57,7 @@ input:focus-visible{outline:3px solid var(--col);outline-offset:2px}
 /* ===== Thème futuriste : un seul look sombre néon, choisi volontairement ===== */
 :root:root:root{
   --bg:#05070f; --card:#0b1020cc; --fg:#e8f1ff; --muted:#8fa3c7; --line:#1d2a48;
-  --c1:#00f0d0; --c2:#3aa0ff; --c3:#b56cff; --c4:#ff8a3d; --c5:#ff4fb3; --c6:#5dff8f; --c7:#ffd23d;
+  --c1:#00f0d0; --c2:#3aa0ff; --c3:#b56cff; --c4:#ff8a3d; --c5:#ff4fb3; --c6:#5dff8f; --c7:#ffd23d; --c8:#ff5470;
   --display:"Orbitron","Exo 2",system-ui,sans-serif; --body:"Exo 2",system-ui,sans-serif;
   color-scheme:dark;
 }
@@ -148,6 +148,24 @@ const COP1=["Débuter avec Microsoft 365 Copilot Chat","Écrire des requêtes ef
 const COP2=["Introduction à Microsoft 365 Copilot","Explorer les possibilités de Microsoft 365 Copilot","Optimiser et étendre Microsoft 365 Copilot"];
 const COP3=["Introduction à Microsoft 365 Copilot","Créer des présentations avec l'IA (PowerPoint)","Rédiger des documents avec l'IA (Word)","Rendre les réunions plus productives (Teams)","Analyser des données avec l'IA (Excel)","Améliorer ses courriels avec l'IA (Outlook)","Copilot Chat pour la productivité et la créativité"];
 const DATA=[
+ {id:"n8",title:"Priorité SIPACO — Odoo (4 à 6 semaines)",col:8,meta:"Offre d'emploi concrète · passe avant le reste · presque tout gratuit",groups:[
+  {t:"1. Apprendre Odoo (soir et fin de semaine)",items:[
+   ["Créer une base d'essai Odoo gratuite (Ventes, Achats, Inventaire, Fabrication)",L("odoo.com/trial","https://www.odoo.com/trial"),"Gratuit"],
+   ["eLearning Odoo : Ventes",L("odoo.com/slides","https://www.odoo.com/slides"),"🏅 Gratuit"],
+   ["eLearning Odoo : Achats","odoo.com/slides","🏅 Gratuit"],
+   ["eLearning Odoo : Inventaire","odoo.com/slides","🏅 Gratuit"],
+   ["eLearning Odoo : Fabrication (MRP)","odoo.com/slides","🏅 Gratuit"],
+   ["Lire la documentation des 4 modules",L("odoo.com/documentation","https://www.odoo.com/documentation"),"Gratuit"]]},
+  {t:"2. Pratiquer comme au travail",items:[
+   ["Projet : une fausse usine de matelas dans Odoo (articles, nomenclature, ordre de fabrication, achat, vente)","Ta base d'essai · documenté sur GitHub","Projet"],
+   ["Installer Odoo Community sur Proxmox (Ubuntu + PostgreSQL) + une sauvegarde","Ton labo","Labo"],
+   ["SQL de base (lire les tables d'Odoo)",L("Kaggle","https://www.kaggle.com/learn/intro-to-sql"),"🏅 Certificat"],
+   ["Optionnel : tutoriel développeur « Server framework 101 »","odoo.com/documentation","Facultatif"]]},
+  {t:"3. Certification et candidature",items:[
+   ["Demander l'accès éducation Odoo (via EMICA) — vérifier les conditions","odoo.com","À vérifier"],
+   ["Certification Odoo (fonctionnelle)",L("odoo.com/certification","https://www.odoo.com/certification"),"🎓 prix à vérifier"],
+   ["Ajouter Odoo au CV et à LinkedIn, puis postuler chez SIPACO","CV · LinkedIn","Candidature"],
+   ["Bonus : chaîne YouTube Odoo + vidéos Odoo Experience","youtube.com/@Odoo","Bonus"]]}]},
  {id:"n1",title:"Niveau 1 — Technicien",col:1,meta:"Les fondations · ~140 $",groups:[
   {t:"Au travail (pauses et dîner) — cours IA",items:[
    ["Claude 101 + Maîtrise de l'IA (AI Fluency)",L("academy.claude.com","https://academy.claude.com"),"🏅 2 badges",null,CLAUDE1],
@@ -282,7 +300,7 @@ function refresh(){
     sec.querySelector("[data-bar]").style.width=p+"%";
     boxes.forEach(b=>{const lab=b.closest("label");lab.classList.toggle("done",b.checked);
       if(lab.querySelector(".tag.cert")){certs++;if(b.checked)certsDone++}
-      if(!b.checked&&!next&&i<4)next=lab.querySelector(".name").firstChild.textContent});
+      if(!b.checked&&!next&&i<5)next=lab.querySelector(".name").firstChild.textContent});
   });
   const p=Math.round(done/all*100);
   document.getElementById("gPct").textContent=p+" %";
