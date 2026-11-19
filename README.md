@@ -10,19 +10,18 @@ J'ai créé ce dépôt pour une raison simple : j'apprends mieux quand j'écris.
 
 ## Où j'en suis
 
-| Sujet | Ce que j'étudie | Où j'en suis |
-| --- | --- | --- |
-| Azure | Les bases (AZ-900), puis l'AZ-104 | 🔄 En cours, examen visé en janvier |
-| Réseau | Cours Cisco, puis le CCNA | 🔄 Premier cours terminé |
-| PowerShell | Mes propres scripts | 🔄 Premier script publié |
-| IA | Claude, Copilot, ChatGPT, Gemini… | 🔄 En cours |
-| AWS | Cloud Practitioner | ⏳ Bientôt |
-| Python | Les bases sur Kaggle | ⏳ Bientôt |
-| Labo maison | Proxmox sur un vieux ThinkPad, Active Directory, Veeam | ⏳ Installation en cours |
-| Automatisation | Power Automate | ⏳ Plus tard |
-| Sécurité | Hacking éthique, par curiosité (TryHackMe) | ⏳ Bonus |
-| Odoo (ERP) | Ventes, achats, inventaire, fabrication + une fausse usine de matelas | 🔄 Avec le niveau 1 : théorie le soir, pratique la fin de semaine |
-| Mes applications | Construire avec l'IA (Claude Code, API Claude) | ⏳ La fin de semaine |
+J'ai simplifié mon plan : **une seule certification à la fois**, et chaque jour 2 h de certification, 1 h d'anglais et 1 h de labo.
+
+| Ordre | Ce que j'étudie | Examen visé | Où j'en suis |
+| --- | --- | --- | --- |
+| 1 | MD-102 — Administrateur des postes de travail (Intune) | janvier 2027 | 🔄 En cours |
+| 2 | CCNA — réseau | juillet 2027 | ⏳ Ensuite |
+| 3 | AZ-104 — Administrateur Azure | octobre 2027 | ⏳ Ensuite |
+| Chaque jour | Anglais | — | 🔄 En cours |
+| Chaque jour | Mon labo : Windows Server, Active Directory, GPO, DNS, DHCP, pare-feu | — | 🔄 En cours |
+| En continu | L'IA comme outil : scripts PowerShell, documentation, un petit projet par trimestre | — | 🔄 En cours |
+
+Ce que j'ai mis en pause pour me concentrer : AWS, Python, Power Automate, le hacking éthique et Odoo. J'y reviendrai plus tard.
 
 Mes badges et certifications sont dans [08-certifications](08-certifications/README.md).
 
@@ -30,7 +29,7 @@ Mes badges et certifications sont dans [08-certifications](08-certifications/REA
 
 - [01-azure](01-azure) — mes notes et labs Azure
 - [02-aws](02-aws) — AWS
-- [03-reseau](03-reseau) — Cisco et réseau
+- [03-reseau](03-reseau) — Cisco, réseau et le CCNA
 - [04-powershell](04-powershell) — mes scripts
 - [05-python](05-python) — mes exercices Python
 - [06-ia](06-ia) — ce que j'apprends sur l'IA et mes tests
@@ -39,6 +38,8 @@ Mes badges et certifications sont dans [08-certifications](08-certifications/REA
 - [09-automatisation](09-automatisation) — Power Automate
 - [10-securite](10-securite) — sécurité et hacking éthique
 - [11-applications](11-applications) — mes applications et l'IA
+- [12-odoo](12-odoo) — Odoo (en pause)
+- [13-md-102](13-md-102) — ma certification en cours
 - [_modele](_modele/notes-modele.md) — le modèle que je copie pour mes notes
 
 Petite précision : tout ce qui est ici vient de mon labo ou de mes cours. Les noms de machines et d'utilisateurs sont inventés, et il n'y a aucune donnée de mon travail.
