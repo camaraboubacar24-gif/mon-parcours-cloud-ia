@@ -21,6 +21,7 @@ J'ai créé ce dépôt pour une raison simple : j'apprends mieux quand j'écris.
 | Labo maison | Proxmox sur un vieux ThinkPad, Active Directory, Veeam | ⏳ Installation en cours |
 | Automatisation | Power Automate | ⏳ Plus tard |
 | Sécurité | Hacking éthique, par curiosité (TryHackMe) | ⏳ Bonus |
+| Mes applications | Construire avec l'IA (Claude Code, API Claude) | ⏳ La fin de semaine |
 
 Mes badges et certifications sont dans [08-certifications](08-certifications/README.md).
 
@@ -36,6 +37,7 @@ Mes badges et certifications sont dans [08-certifications](08-certifications/REA
 - [08-certifications](08-certifications) — badges et certifications
 - [09-automatisation](09-automatisation) — Power Automate
 - [10-securite](10-securite) — sécurité et hacking éthique
+- [11-applications](11-applications) — mes applications et l'IA
 - [_modele](_modele/notes-modele.md) — le modèle que je copie pour mes notes
 
 Petite précision : tout ce qui est ici vient de mon labo ou de mes cours. Les noms de machines et d'utilisateurs sont inventés, et il n'y a aucune donnée de mon travail.

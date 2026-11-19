@@ -6,7 +6,7 @@
 :root{
   --bg:#f5f7fb; --card:#ffffff; --fg:#14182b; --muted:#5b6380; --line:#e2e6f0;
   --c1:#0ea5a4; --c2:#2563eb; --c3:#7c3aed; --c4:#ea580c; --c5:#db2777; --c6:#16a34a;
-  --t1:#e6f7f7; --t2:#e8effd; --t3:#f1ebfe; --t4:#fdefe6; --t5:#fce8f2; --t6:#e7f6ec;
+  --t1:#e6f7f7; --t2:#e8effd; --t3:#f1ebfe; --t4:#fdefe6; --t5:#fce8f2; --t6:#e7f6ec; --c7:#ca8a04; --t7:#fdf6dd;
   --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
@@ -57,7 +57,7 @@ input:focus-visible{outline:3px solid var(--col);outline-offset:2px}
 /* ===== Thème futuriste : un seul look sombre néon, choisi volontairement ===== */
 :root:root:root{
   --bg:#05070f; --card:#0b1020cc; --fg:#e8f1ff; --muted:#8fa3c7; --line:#1d2a48;
-  --c1:#00f0d0; --c2:#3aa0ff; --c3:#b56cff; --c4:#ff8a3d; --c5:#ff4fb3; --c6:#5dff8f;
+  --c1:#00f0d0; --c2:#3aa0ff; --c3:#b56cff; --c4:#ff8a3d; --c5:#ff4fb3; --c6:#5dff8f; --c7:#ffd23d;
   --display:"Orbitron","Exo 2",system-ui,sans-serif; --body:"Exo 2",system-ui,sans-serif;
   color-scheme:dark;
 }
@@ -188,7 +188,7 @@ const DATA=[
    ["AWS AI Practitioner","skillbuilder.aws","🎓 ~140 $"],
    ["GitHub Foundations (GH-900) + GitHub Copilot (GH-300)",L("skills.github.com","https://skills.github.com"),"🎓 ~140 $ ×2"],
    ["OCI AI Foundations (Oracle)",L("mylearn.oracle.com","https://mylearn.oracle.com"),"🎓 souvent gratuit"],
-   ["Claude : Code · MCP · Compétences d'agents · Sous-agents + Claude Certified Associate","academy.claude.com","🎓 ~140 $"],
+   ["Claude : Claude Code 101 → Agent Skills → Claude Code in Action + Claude Certified Associate (MCP et Sous-agents facultatifs)",L("academy.claude.com","https://academy.claude.com"),"🎓 ~140 $",null,["Claude Code 101 (12 leçons, ~1 h 30)","Introduction to Agent Skills (~1 h)","Quelques semaines de pratique avec Claude Code","Claude Code in Action (~1 h)","Claude Certified Associate (examen)"]],
    ["Copilot : bases des agents IA + Copilot Studio",L("Créer des agents","https://learn.microsoft.com/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/"),"🏅 Trophées"],
    ["TOEIC (anglais)",L("ets.org","https://www.ets.org/toeic.html"),"🎓 ~150–350 $"],
    ["Mandarin débutant + HSK 1","Duolingo · HelloChinese","🎓 ~50 $"],
@@ -205,7 +205,7 @@ const DATA=[
    ["AWS Machine Learning Engineer – Associate","skillbuilder.aws","🎓 ~210 $"],
    ["AI-300 — MLOps","Microsoft Learn","🎓 ~220 $"],
    ["NVIDIA NCA-AIIO + NCA-GENL",L("NVIDIA DLI","https://www.nvidia.com/en-us/training/"),"🎓 à vérifier"],
-   ["Claude : API + MCP avancé + Claude Certified Developer","academy.claude.com","🎓 ~175 $"],
+   ["Claude Certified Developer (après les cours de la voie 2)","academy.claude.com","🎓 ~175 $"],
    ["Google AI Essentials + Generative AI Leader","Coursera · Google Cloud","🎓 ~140 $"],
    ["HCIA-AI (Huawei)","Huawei Talent","🎓 à vérifier"],
    ["SQL : Introduction + avancé","Kaggle","🏅 Certificats"],
@@ -219,6 +219,17 @@ const DATA=[
    ["Claude Certified Architect – Foundations puis Professional","academy.claude.com","🎓 ~175 + 245 $"],
    ["Optionnel : FinOps · SC-100 · AWS IA générative Pro","Sites officiels","🎓 à vérifier"],
    ["Mandarin : HSK 3","Centre HSK","🎓 ~120 $"]]}]},
+ {id:"n7",title:"Voie 2 — Mes applications et l'IA",col:7,meta:"Fin de semaine · construire avec l'IA · cours gratuits",groups:[{t:"Dans l'ordre",items:[
+   ["Claude Code 101 (commun avec la voie 1)",L("academy.claude.com","https://academy.claude.com/courses/claude-code-101"),"🏅 Badge"],
+   ["Claude Platform 101",L("academy.claude.com","https://academy.claude.com"),"🏅 Badge"],
+   ["Building with the Claude API (~9 h)",L("academy.claude.com","https://academy.claude.com"),"🏅 Badge"],
+   ["Tool use with the Messages API","academy.claude.com","🏅 Badge"],
+   ["Introduction to MCP","academy.claude.com","🏅 Badge"],
+   ["MCP : sujets avancés","academy.claude.com","🏅 Badge"],
+   ["Introduction to evals","academy.claude.com","🏅 Badge"],
+   ["Projet : de l'IA dans AgriDiag (documenté sur GitHub)","GitHub","Projet"],
+   ["Projet : un assistant IA dans DjouldeTrack (documenté sur GitHub)","GitHub","Projet"],
+   ["Facultatif : Introduction to Subagents · Introduction to Claude Cowork","academy.claude.com","Facultatif"]]}]},
  {id:"n5",title:"Langues et développement personnel",col:5,meta:"Tous les jours, à chaque niveau",groups:[{t:"Habitudes",items:[
    ["Anglais 30 min par jour",L("BBC Learning English","https://www.bbc.co.uk/learningenglish"),"Quotidien"],
    ["Mandarin 15 min par jour","Duolingo · HelloChinese","Quotidien"],
@@ -240,7 +251,8 @@ const DATA=[
   {t:"Visibilité",items:[
    ["LinkedIn : badges + 1 post par semaine","Réseau Rio Tinto","Visibilité"],
    ["Profil et alertes sur jobs.riotinto.com",L("jobs.riotinto.com","https://jobs.riotinto.com"),"Visibilité"],
-   ["Vidéos THIERNO IT","TikTok · Facebook","Visibilité"]]}]}
+   ["Vidéos THIERNO IT","TikTok · Facebook","Visibilité"],
+   ["THIERNO IT : motion design avec Claude Code (Remotion ou HyperFrames), hors parcours Rio",L("remotion.dev","https://www.remotion.dev/docs/ai/claude-code-plugin"),"Bonus"]]}]}
 ];
 const KEY="parcours-rio-tinto-v1";
 let state={};try{state=JSON.parse(localStorage.getItem(KEY))||{}}catch(e){state={}}
