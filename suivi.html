@@ -148,24 +148,6 @@ const COP1=["Débuter avec Microsoft 365 Copilot Chat","Écrire des requêtes ef
 const COP2=["Introduction à Microsoft 365 Copilot","Explorer les possibilités de Microsoft 365 Copilot","Optimiser et étendre Microsoft 365 Copilot"];
 const COP3=["Introduction à Microsoft 365 Copilot","Créer des présentations avec l'IA (PowerPoint)","Rédiger des documents avec l'IA (Word)","Rendre les réunions plus productives (Teams)","Analyser des données avec l'IA (Excel)","Améliorer ses courriels avec l'IA (Outlook)","Copilot Chat pour la productivité et la créativité"];
 const DATA=[
- {id:"n8",title:"Priorité SIPACO — Odoo (4 à 6 semaines)",col:8,meta:"Offre d'emploi concrète · passe avant le reste · presque tout gratuit",groups:[
-  {t:"1. Apprendre Odoo (soir et fin de semaine)",items:[
-   ["Créer une base d'essai Odoo gratuite (Ventes, Achats, Inventaire, Fabrication)",L("odoo.com/trial","https://www.odoo.com/trial"),"Gratuit"],
-   ["eLearning Odoo : Ventes",L("odoo.com/slides","https://www.odoo.com/slides"),"🏅 Gratuit"],
-   ["eLearning Odoo : Achats","odoo.com/slides","🏅 Gratuit"],
-   ["eLearning Odoo : Inventaire","odoo.com/slides","🏅 Gratuit"],
-   ["eLearning Odoo : Fabrication (MRP)","odoo.com/slides","🏅 Gratuit"],
-   ["Lire la documentation des 4 modules",L("odoo.com/documentation","https://www.odoo.com/documentation"),"Gratuit"]]},
-  {t:"2. Pratiquer comme au travail",items:[
-   ["Projet : une fausse usine de matelas dans Odoo (articles, nomenclature, ordre de fabrication, achat, vente)","Ta base d'essai · documenté sur GitHub","Projet"],
-   ["Installer Odoo Community sur Proxmox (Ubuntu + PostgreSQL) + une sauvegarde","Ton labo","Labo"],
-   ["SQL de base (lire les tables d'Odoo)",L("Kaggle","https://www.kaggle.com/learn/intro-to-sql"),"🏅 Certificat"],
-   ["Optionnel : tutoriel développeur « Server framework 101 »","odoo.com/documentation","Facultatif"]]},
-  {t:"3. Certification et candidature",items:[
-   ["Demander l'accès éducation Odoo (via EMICA) — vérifier les conditions","odoo.com","À vérifier"],
-   ["Certification Odoo (fonctionnelle)",L("odoo.com/certification","https://www.odoo.com/certification"),"🎓 prix à vérifier"],
-   ["Ajouter Odoo au CV et à LinkedIn, puis postuler chez SIPACO","CV · LinkedIn","Candidature"],
-   ["Bonus : chaîne YouTube Odoo + vidéos Odoo Experience","youtube.com/@Odoo","Bonus"]]}]},
  {id:"n1",title:"Niveau 1 — Technicien",col:1,meta:"Les fondations · ~140 $",groups:[
   {t:"Au travail (pauses et dîner) — cours IA",items:[
    ["Claude 101 + Maîtrise de l'IA (AI Fluency)",L("academy.claude.com","https://academy.claude.com"),"🏅 2 badges",null,CLAUDE1],
@@ -192,7 +174,22 @@ const DATA=[
    ["Veeam University : Veeam Data Platform",L("Veeam University","https://www.veeam.com/university.html"),"🏅 Certificat"]]},
   {t:"Bonus fin de semaine (30 min) — hacking éthique",items:[
    ["TryHackMe : parcours « Pre Security » (réseau, web, Linux, Windows à partir de zéro)",L("tryhackme.com","https://tryhackme.com"),"Gratuit"],
-   ["OverTheWire : Bandit (Linux en énigmes)",L("overthewire.org","https://overthewire.org/wargames/bandit/"),"Gratuit"]]}]},
+   ["OverTheWire : Bandit (Linux en énigmes)",L("overthewire.org","https://overthewire.org/wargames/bandit/"),"Gratuit"]]},
+  {t:"Odoo en semaine (après tes cours du soir, 30 min) — la théorie",items:[
+   ["eLearning Odoo : Ventes",L("odoo.com/slides","https://www.odoo.com/slides"),"🏅 Gratuit"],
+   ["eLearning Odoo : Achats","odoo.com/slides","🏅 Gratuit"],
+   ["eLearning Odoo : Inventaire","odoo.com/slides","🏅 Gratuit"],
+   ["eLearning Odoo : Fabrication (MRP)","odoo.com/slides","🏅 Gratuit"],
+   ["Lire la documentation des 4 modules",L("odoo.com/documentation","https://www.odoo.com/documentation"),"Gratuit"]]},
+  {t:"Odoo en fin de semaine — la pratique",items:[
+   ["Créer une base d'essai Odoo gratuite (Ventes, Achats, Inventaire, Fabrication)",L("odoo.com/trial","https://www.odoo.com/trial"),"Gratuit"],
+   ["Projet : une fausse usine de matelas dans Odoo (articles, nomenclature, ordre de fabrication, achat, vente)","Ta base d'essai · documenté sur GitHub","Projet"],
+   ["Installer Odoo Community sur Proxmox (Ubuntu + PostgreSQL) + une sauvegarde","Ton labo","Labo"],
+   ["SQL de base (lire les tables d'Odoo)",L("Kaggle","https://www.kaggle.com/learn/intro-to-sql"),"🏅 Certificat"],
+   ["Demander l'accès éducation Odoo (via EMICA) — vérifier les conditions","odoo.com","À vérifier"],
+   ["Certification Odoo (fonctionnelle)",L("odoo.com/certification","https://www.odoo.com/certification"),"🎓 prix à vérifier"],
+   ["Ajouter Odoo au CV et à LinkedIn, puis postuler chez SIPACO","CV · LinkedIn","Candidature"],
+   ["Facultatif : tutoriel « Server framework 101 » · YouTube Odoo · Odoo Experience","odoo.com","Facultatif"]]}]},
  {id:"n2",title:"Niveau 2 — Administrateur",col:2,meta:"Ouvre la candidature chez Rio Tinto · ~3 000 à 3 800 $",groups:[{t:"Dans l'ordre",items:[
    ["⭐ AZ-104 — Administrateur Azure (examen visé en janvier)",L("6 parcours + labs","https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/"),"🎓 ~220 $",null,AZ104],
    ["Linux : Initiation + Les essentiels de Linux",L("netacad.com","https://www.netacad.com"),"🏅 Badges"],
@@ -300,7 +297,7 @@ function refresh(){
     sec.querySelector("[data-bar]").style.width=p+"%";
     boxes.forEach(b=>{const lab=b.closest("label");lab.classList.toggle("done",b.checked);
       if(lab.querySelector(".tag.cert")){certs++;if(b.checked)certsDone++}
-      if(!b.checked&&!next&&i<5)next=lab.querySelector(".name").firstChild.textContent});
+      if(!b.checked&&!next&&i<4)next=lab.querySelector(".name").firstChild.textContent});
   });
   const p=Math.round(done/all*100);
   document.getElementById("gPct").textContent=p+" %";

@@ -3,7 +3,9 @@
 J'apprends Odoo, un ERP comme SAP : le logiciel qui fait tourner les ventes, les achats, le stock et la fabrication d'une entreprise.
 Pour moi, c'est la suite logique du support : comprendre ce que les utilisateurs font vraiment dans leurs outils.
 
-## Mon plan (4 à 6 semaines)
+## Mon plan
+
+La théorie le soir, après mes cours de base. La pratique la fin de semaine.
 
 | Étape | Où | Statut |
 | --- | --- | --- |
